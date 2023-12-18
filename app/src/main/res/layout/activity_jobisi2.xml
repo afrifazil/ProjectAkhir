@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Jobisi2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="-15dp"
+        android:id="@+id/llj1"
+        >
+
+        <Button
+            android:id="@+id/btnjo_back"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="-10dp"
+            android:width="10dp"
+            android:background="@drawable/button_shape3"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/bluedark"
+            android:text="Back"
+            android:textSize="25sp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jobsheet 2 : Linux Command dan User/Grup Management"
+            android:fontFamily="@font/dosis_bold"
+            android:textSize="20sp"
+            android:textColor="@color/bluedark"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/llj1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21. "
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

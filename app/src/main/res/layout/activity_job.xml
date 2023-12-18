@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".JobActivity">
+
+    <Button
+        android:id="@+id/btnj_back"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-20dp"
+        android:width="10dp"
+        android:background="@drawable/button_shape3"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/bluedark"
+        android:text="Back"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/j_img"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:src="@drawable/cc"
+        android:layout_below="@id/btnj_back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/j_img"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/lly_job"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_j1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 1"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btn_j2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 2"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_j3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 3"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btn_j4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 4"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_j5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 5"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btn_j6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 6"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_j7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 7"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btn_j8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 8"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_j9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 9"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btn_j10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 10"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_j11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 11"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btn_j12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="180dp"
+                    android:background="@drawable/button_shape2"
+                    android:text="Jobsheet 12"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfilActivity">
+
+    <Button
+        android:id="@+id/btnpro_back"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-20dp"
+        android:width="10dp"
+        android:background="@drawable/button_shape3"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/bluedark"
+        android:text="Back"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/profil_img"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/profil"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/profil_img"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_height="190dp"
+                android:src="@drawable/pp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Nama  :   Afri Fazil"
+                android:textColor="@color/bluedark"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/dosis_bold"
+                android:text="NIM       :   21076031"
+                android:textColor="@color/bluedark"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Pendidikan Teknik Informatika"
+                android:textColor="@color/bluedark"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Jurusan Teknik Elektronika"
+                android:textColor="@color/bluedark"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Fakultas Teknik"
+                android:textColor="@color/bluedark"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Universitas Negeri Padang"
+                android:textColor="@color/bluedark"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/dosis_bold"
+                android:text="2023"
+                android:textColor="@color/bluedark"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

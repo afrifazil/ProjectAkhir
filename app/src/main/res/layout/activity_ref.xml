@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RefActivity">
+
+    <Button
+        android:id="@+id/btnref_back"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-20dp"
+        android:width="10dp"
+        android:background="@drawable/button_shape3"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/bluedark"
+        android:text="Back"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/ref_img"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/btnref_back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/re" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ref_img"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/dosis_bold"
+                android:paddingLeft="30dp"
+                android:text="Bhowmik, Sandeep. 2017. Cloud Computing. Cambridge University Press "
+                android:textColor="@color/bluedark"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="141dp"
+                android:layout_height="155dp"
+                android:src="@drawable/ref" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="15dp"
+                android:fontFamily="@font/dosis_bold"
+                android:paddingLeft="30dp"
+                android:text="Afrianto, Dedy Setyo. 2015. The Power of ownCloud. 10 Langkah Mudah Membangun dan Mengelola Sendiri Teknologi Cloud di Lingkungan Anda. Leutika Prio : Jogjakarta"
+                android:textColor="@color/bluedark"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="141dp"
+                android:layout_height="155dp"
+                android:src="@drawable/reef" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="15dp"
+                android:fontFamily="@font/dosis_bold"
+                android:paddingLeft="30dp"
+                android:text="Elcom, 2012, Cloud Computing. Andi Publisher : Jogjakarta"
+                android:textColor="@color/bluedark"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="141dp"
+                android:layout_height="155dp"
+                android:src="@drawable/reeefeee" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="15dp"
+                android:fontFamily="@font/dosis_bold"
+                android:paddingLeft="30dp"
+                android:text="Gusti Rian, Nathan. 2018. Best Practise Disaster Recovery Platform Virtualisasi VMware vSphere (Veeam+Nakivo). CV. XP solution: Surabaya"
+                android:textColor="@color/bluedark"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="141dp"
+                android:layout_height="155dp"
+                android:src="@drawable/reeef"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="15dp"
+                android:fontFamily="@font/dosis_bold"
+                android:paddingLeft="30dp"
+                android:text="Gusti Rian, Nathan. 2018. Membangun Virtualisasi Server dengan VMware Vsphere v5.5. CV. XP solution: Surabaya"
+                android:textColor="@color/bluedark"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="141dp"
+                android:layout_height="155dp"
+                android:src="@drawable/reefee"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="15dp"
+                android:fontFamily="@font/dosis_bold"
+                android:paddingLeft="30dp"
+                android:text="Cobbaut, Paul. 2015. Linux Fundamentals. Online version. Netsec BVBA"
+                android:textColor="@color/bluedark"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="141dp"
+                android:layout_height="155dp"
+                android:src="@drawable/reefeee"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

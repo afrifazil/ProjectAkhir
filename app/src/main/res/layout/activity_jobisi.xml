@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".JobisiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="-15dp"
+        android:id="@+id/llri"
+        >
+
+        <Button
+            android:id="@+id/btni_back"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="-10dp"
+            android:width="10dp"
+            android:background="@drawable/button_shape3"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/bluedark"
+            android:text="Back"
+            android:textSize="25sp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jobsheet 1 : Instalasi Sistem Operasi Jaringan"
+            android:fontFamily="@font/dosis_bold"
+            android:textSize="20sp"
+            android:textColor="@color/bluedark"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/llri">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Hidupkan komputer yang telah terpasang CD Installer, mulailah proses penginstalan Debian."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Pada tampilan desktop anda bisa memilih mode installasi apakah GUI atau CLI. Silahkan pilih salah satu mode, ikuti tahapan berikutnya."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Proses berikutnya adalah menu memilih negara/country. Pilih saja English, soalnya nantinya semua pengaturan akan lebih mudah apabila dalam bahasa inggris."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Kemudian lanjut, pilih United Stated ata sesuaikan dengan lokasi anda."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Menu berikutnya adalah Konfigurasi keyboard. Pilihlah American english karena umumnya keyboard yang ada ( Model Qwerty ) ."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Klik Continue pada tahap sebelumnya. Dan ikuti proses yang berjalan."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. Menu yang berikutnya adalah menu konfigurasi network ( Configure the network ). Pada menu ini silahkan masukkan host name sesuai dengan yang kita inginkan."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8. Pada menu berikutnya anda akan dihadapi nama domain (domain name). bisa kita pilih diantara domain .com/org/gov/ac/id dsj.Misal belajarsoj.net"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9. Menu berikutnya adalah menu Root ( Administrator kalau di windows. Di Linux, administrator dikenal dengan nama Root. Pada menu ini kita diperintahkan memasukan Pasword admin/root. Masukan pasword anda. Dan jangan lupa akan password ini karena password root lah yang nanti anda butuhkan jika anda akan mensetting/merubah sistem Linux. Jangan lupa untuk memasukan ulang password anda pada kolom bawah ( Re-enter password to verify ). Klik continue untuk lanjut."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10. Menu berikutnya adalah menu User. Pada menu ini kita diperintahkan untuk menambah user baru. User disini lah yang nanti menjadi user pertama pengguna Linux di Debian."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Pilih Continue.Maka akan keluar menu untuk memasukan nama username (username), karena anda sebelumnya sudah memasukan nama fullname maka otomatis usernamenya menyesuaikan nama fullname anda. Langsung pilih saja continue."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12. Menu berikutnya adalah memasukan password bagi username anda. Masukan password anda. Untuk alasan keamanan, ada baiknya password ini anda isi berbeda dengan password admin/root yang sebelumnya sudah anda isi pada tahap sebelumnya. Jangan lupa untuk memasukan ulang password pada kolom dibawahnya lagi (re-enter password to verify. Klik continue."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13. Berikutnya adalah menu memilih Zona waktu wilayah (Time Zone)."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14. Menu selanjutanya adalah menu Partisi (Partition Disk) atau menu memilih Hardisk yang anda pilih untuk instalasi. Ada 4 pilihan :\n\na. Guided -Use entire disk = Jika anda memilih ini maka seluruh hardisk akan dihapus dan partisi akan dilakukan otomatis oleh menu installer. Pilihlah menu ini jika anda memang tidak memiliki data lain dihardisk, atau tidak ada sistem operasi lain semisal windows di hardisk. Dalam artian kalau dihardisk memang benar-benar dikhususkan untuk Debian dan tidak ada data lain maka pilihlah menu ini.\n\nb. Guided -Use entire disk and setup LVM = sama dengan diatas dengan plus fitur LVM.\n\nc. Guided -Use entire disk and setup encrypted LVM = sama dengan diatas dengan plus LVM+enkripsi.\n\nd. Manual = Pilihlah option ini jika anda memiliki Sistem operasi lain semisal windows di hardisk, atau jika anda memiliki data di hardisk dan tidak ingin data anda dihapus secara otomatis oleh installer. Pada option ini kitalah yang menentukan partisi."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15. Lalu keluar menu berikut, Pilihlah finish partitioning and write changes to disk dan klik continue. Dan pilih YES lalu continue sekali lagi."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16. Jika berhasil maka proses instalasi base sistem akan jalan."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17. Menu berikutnya adalah menu Software Selection. Pada menu ini kita akan diperintahkan untuk memilih software tambahan apa saja yang ingin kita install. Karena saya ingin sebuah tampilan Graphis (GUI) dengan desktop environtment GNOME maka saya memilih Graphical desktop environtment dan standar system utilities."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18. Biarkan proses selesai. Sampai keluar menu Terakhir yaitu menu Instalasi Grub Loader (man-db)."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19. Pada menu instalasi Grub Loader ini anda wajib memilih Menu YES agar Linux dapat terbaca pada hardisk anda."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20. Klik Continue.\n\n21. Proses Instalasi Selesai Klik Continue untuk reboot."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22. Tunggu sampai system merestart kembali."
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
